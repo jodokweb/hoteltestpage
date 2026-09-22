@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hotel PAM — Horské středisko nad Jáchymovem</title>
+  <meta name="description" content="Rodinné horské středisko PAM v Krušných horách nad Jáchymovem. Hotel Bellevue, Hotel Petr, horská chata, restaurace s výhledem na Klínovec. Od roku 1991." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Hlavní navigace">
+      <a class="logo" href="#top">
+        Hotel PAM
+        <span>Horské středisko</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#ubytovani">Ubytování</a></li>
+        <li><a href="#sluzby">Služby</a></li>
+        <li><a href="#restaurace">Restaurace</a></li>
+        <li><a href="#o-nas">O nás</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+      </ul>
+      <a class="nav-cta" href="#kontakt">Rezervovat</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Otevřít menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media">
+        <img src="assets/images/view-valley.png" alt="Hotel PAM nad údolím Jáchymova při východu slunce" />
+      </div>
+      <div class="hero-inner">
+        <p class="hero-kicker">Vítejte v horském středisku</p>
+        <h1 class="hero-brand">Hotel PAM</h1>
+        <p class="hero-lead">
+          Místo, kde stojí za to zůstat. Pokoje s výhledem na Klínovec, kuchyně, kvůli které sejdete dolů, a rodina, která se o vás stará už přes třicet let.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#ubytovani">Prohlédnout pokoje</a>
+          <a class="btn btn-ghost" href="#o-nas">Náš příběh</a>
+        </div>
+        <p class="hero-rating">7,6 / 10 na Booking.com · 9 / 10 na Travelking · od roku 1991</p>
+      </div>
+    </section>
+
+    <section class="rooms" id="ubytovani">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Pokoje &amp; objekty</p>
+            <h2>Najděte si svůj pokoj.</h2>
+          </div>
+          <a class="link-arrow" href="#kontakt">Rezervace →</a>
+        </div>
+
+        <div class="room-grid">
+          <article class="room-card reveal">
+            <figure>
+              <img src="assets/images/bellevue-ext.jpg" alt="Hotel Bellevue" loading="lazy" />
+            </figure>
+            <div class="room-meta">
+              <div>
+                <p class="tag">Hotel</p>
+                <h3>Bellevue</h3>
+              </div>
+              <p class="room-price">od <strong>800 Kč</strong> / osoba / noc</p>
+            </div>
+            <p>
+              12 pokojů (2–3 lůžka s možností přistýlky), sprcha a WC, TV se satelitem a telefon.
+              Restaurace pro 55 hostů a vyhlídková terasa s panoramatem Krušných hor.
+            </p>
+          </article>
+
+          <article class="room-card reveal">
+            <figure>
+              <img src="assets/images/pokoj-2.jpg" alt="Pokoj v Hotelu Petr" loading="lazy" />
+            </figure>
+            <div class="room-meta">
+              <div>
+                <p class="tag">Hotel</p>
+                <h3>Petr</h3>
+              </div>
+              <p class="room-price">od <strong>800 Kč</strong> / osoba / noc</p>
+            </div>
+            <p>
+              Novostavba z roku 2002 — 7 pokojů (3–4 lůžka), všechny s balkonem, vlastním sociálním zařízením a TV.
+              Restaurace s terasou a možnost venkovního grilování od 20 osob.
+            </p>
+          </article>
+
+          <article class="room-card reveal">
+            <figure>
+              <img src="assets/images/gallery-e.jpg" alt="Horská chata PAM" loading="lazy" />
+            </figure>
+            <div class="room-meta">
+              <div>
+                <p class="tag">Chata</p>
+                <h3>Horská chata PAM</h3>
+              </div>
+              <p class="room-price"><strong>36 lůžek</strong> · vlastní vaření</p>
+            </div>
+            <p>
+              Kompletně zařízená kuchyně, společenská místnost pro 60 osob, letní terasa pro 40.
+              Každý pokoj má vlastní sprchu a WC. Parkoviště, lyžárna a úschovna kol přímo u objektu.
+            </p>
+          </article>
+        </div>
+
+        <p class="reveal" style="margin-top: 2rem; color: var(--muted); max-width: 48rem;">
+          K dispozici jsou také depandance Bellevue a Petr. Vlídné prostředí 2&nbsp;km nad Jáchymovem,
+          6&nbsp;km od Božího Daru a 25&nbsp;km od Karlových Varů. Děti do 3 let zdarma, děti 3–12 let sleva 30&nbsp;%.
+          Polopenze +200&nbsp;Kč/den.
+        </p>
+      </div>
+    </section>
+
+    <section class="services" id="sluzby">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Služby střediska</p>
+            <h2>Všechno, co potřebujete.</h2>
+          </div>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-item reveal">
+            <span class="service-num">01</span>
+            <div>
+              <h3>Restaurace</h3>
+              <p>
+                Tradiční kuchyně od snídaně po večeři. V létě terasa s výhledem na Klínovec,
+                v zimě posezení u otevřeného krbu.
+              </p>
+            </div>
+          </article>
+          <article class="service-item reveal">
+            <span class="service-num">02</span>
+            <div>
+              <h3>Parkování &amp; sklady</h3>
+              <p>
+                Vlastní parkoviště přímo u hotelu, lyžárna a úschovna horských kol.
+                Ideální zázemí pro lyžaře i cykloturisty.
+              </p>
+            </div>
+          </article>
+          <article class="service-item reveal">
+            <span class="service-num">03</span>
+            <div>
+              <h3>Školní pobyty</h3>
+              <p>
+                Vysoká kapacita lůžek, strava včetně diet, sportoviště a spolupráce se Skiareálem Plešivec
+                včetně lyžařských kurzů.
+              </p>
+            </div>
+          </article>
+          <article class="service-item reveal">
+            <span class="service-num">04</span>
+            <div>
+              <h3>Svatby &amp; mazlíčci</h3>
+              <p>
+                Obřad na zahradě Bellevue, hostina v Petru nebo na chatě. Domácí mazlíčci vítáni —
+                lesní stezky a klidná příroda na dosah.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="o-nas">
+      <div class="container story-grid">
+        <figure class="story-media reveal">
+          <img src="assets/images/view-morning.jpg" alt="Ranní výhled z Hotelu PAM do údolí" loading="lazy" />
+        </figure>
+        <div class="story-copy reveal">
+          <p class="eyebrow">Náš příběh</p>
+          <h2>Rodinný hotel, který vydržel.</h2>
+          <p>
+            Již více než 30 let klademe velký důraz na spokojenost a pohodu našich hostů.
+            Jsme hrdí na to, že se naše rodina s láskou, radostí a vřelostí stará o PAM již generace.
+          </p>
+          <p>
+            Od roku 1991 se náš malý rodinný penzion rozrostl v horské středisko s hotely Bellevue a Petr,
+            depandancemi a horskou chatou — stále se stejným přístupem.
+          </p>
+          <p>
+            Těšíme se, až vás jako hosta přivítáme v Bergzentru PAM.
+          </p>
+          <p style="font-weight: 500; color: var(--ink); margin-top: 0.5rem;">
+            Rodina Jedličkova a tým
+          </p>
+          <a class="btn" href="#kontakt">Napsat nám</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="recenze">
+      <div class="container">
+        <div class="section-head reviews-head reveal">
+          <div>
+            <p class="eyebrow">Recenze hostů</p>
+            <h2>Co říkají hosté.</h2>
+          </div>
+        </div>
+
+        <div class="review-track">
+          <article class="review reveal">
+            <blockquote>
+              „Chtěla bych moc poděkovat za krásný víkend. Hotel Bellevue je příjemný a veškerý personál jsou úžasní lidé, skvělá kuchyně a krásné prostředí.“
+            </blockquote>
+            <cite>
+              Alena P.
+              <span>Travelking · Hotel Bellevue</span>
+            </cite>
+          </article>
+          <article class="review reveal">
+            <blockquote>
+              „Fabulous location for hiking and magnificent view. Spacious rooms and above all, fabulous food. Well done and a big thank you to the chef!“
+            </blockquote>
+            <cite>
+              Host z Česka
+              <span>Booking.com</span>
+            </cite>
+          </article>
+          <article class="review reveal">
+            <blockquote>
+              „Restaurace s výhledem na Klínovec, profesionální obsluha, bohaté snídaně a chutné večeře. Paní Martina je velmi ochotná — určitě se vrátíme.“
+            </blockquote>
+            <cite>
+              Manželé Znamenáčkovi
+              <span>Travelking · opakovaný pobyt</span>
+            </cite>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dining" id="restaurace">
+      <div class="dining-bg">
+        <img src="assets/images/hero-winter.jpg" alt="Restaurace hotelu PAM" loading="lazy" />
+      </div>
+      <div class="container dining-inner reveal">
+        <p class="eyebrow">Restaurace</p>
+        <h2>Vaření, kvůli kterému sejdete dolů.</h2>
+        <p>
+          Spěte klidně, probuďte se svěží a těšte se na gurmánskou snídani.
+          Od vydatného rána přes oběd až po večeři — tradiční kuchyně ve stylovém prostředí s opravdovou vřelostí.
+          V létě terasa s výhledem na masiv Klínovce, v chladnějších měsících krb s otevřeným ohněm.
+        </p>
+        <a class="btn btn-primary" href="https://hotel-pam.cz/wp-content/uploads/2019/11/jídelní-lístek-Bellevue.pdf" target="_blank" rel="noopener">Jídelní lístek (PDF)</a>
+      </div>
+    </section>
+
+    <section class="journal" id="okoli">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Tipy z okolí</p>
+            <h2>Z Hotelu PAM.</h2>
+          </div>
+        </div>
+
+        <div class="journal-grid">
+          <article class="journal-card reveal">
+            <figure>
+              <img src="assets/images/gallery-2.jpg" alt="Horské hřebeny Krušných hor" loading="lazy" />
+            </figure>
+            <p class="tag">Výlety</p>
+            <h3>Klínovec &amp; Boží Dar</h3>
+            <p>Šest kilometrů k hranici, výhledy z nejvyšší hory Krušných hor a rašeliniště Boží Dar na dosah.</p>
+          </article>
+          <article class="journal-card reveal">
+            <figure>
+              <img src="assets/images/service-ski.jpg" alt="Lyžování v Krušných horách" loading="lazy" />
+            </figure>
+            <p class="tag">Zima</p>
+            <h3>Lyžování na Plešivci</h3>
+            <p>Spolupráce se Skiareálem Plešivec — skibusy, úschovna lyží a podmínky vhodné i pro školní skupiny.</p>
+          </article>
+          <article class="journal-card reveal">
+            <figure>
+              <img src="assets/images/gallery-3.jpg" alt="Turistika v okolí Jáchymova" loading="lazy" />
+            </figure>
+            <p class="tag">Léto</p>
+            <h3>Stezky &amp; Jáchymov</h3>
+            <p>Naučná stezka Jáchymovské peklo, Ježíškova cesta pro děti a Karlovy Vary jen 25 km daleko.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="galerie">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow" style="color: rgba(255,255,255,0.55);">Galerie</p>
+            <h2>Atmosféra PAM.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-mosaic">
+        <figure><img src="assets/images/view-valley.png" alt="Výhled do údolí Jáchymova" loading="lazy" /></figure>
+        <figure><img src="assets/images/terrace-bellevue.jpg" alt="Terasa hotelu Bellevue" loading="lazy" /></figure>
+        <figure><img src="assets/images/pokoj-1.jpg" alt="Hotelový pokoj" loading="lazy" /></figure>
+        <figure><img src="assets/images/gallery-a.jpg" alt="Areál Hotelu PAM" loading="lazy" /></figure>
+        <figure><img src="assets/images/rest-1.jpg" alt="Restaurace" loading="lazy" /></figure>
+        <figure><img src="assets/images/gallery-c.jpg" alt="Zahrada a okolí hotelu" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Přijeďte se podívat.</h2>
+          <p style="color: var(--ink-soft); max-width: 36ch;">
+            Rádi připravíme nabídku na míru — rodinný víkend, školní pobyt, svatbu i firemní akci.
+          </p>
+          <dl class="contact-details">
+            <div>
+              <dt>Adresa</dt>
+              <dd>Nové Město 42<br />Jáchymov, 363 01 Ostrov</dd>
+            </div>
+            <div>
+              <dt>Telefon</dt>
+              <dd><a href="tel:+420734704170">+420 734 704 170</a></dd>
+            </div>
+            <div>
+              <dt>E-mail</dt>
+              <dd><a href="mailto:info@hotel-pam.cz">info@hotel-pam.cz</a></dd>
+            </div>
+            <div>
+              <dt>Odpovědná vedoucí</dt>
+              <dd>Martina Buchtová</dd>
+            </div>
+            <div>
+              <dt>Provozovatel</dt>
+              <dd>Rodina Jedličkova · AP SATELIT spol. s r.o.<br />IČO 25672118 · DIČ CZ25672118</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="contact-panel reveal">
+          <h3>Ceník ubytování</h3>
+          <p>Základní ceny. Skupinové a školní pobyty kalkulujeme individuálně.</p>
+          <ul class="price-list">
+            <li><span>Ubytování se snídaní</span><strong>800 Kč / os. / noc</strong></li>
+            <li><span>Polopenze</span><strong>+200 Kč / den</strong></li>
+            <li><span>Dětská postýlka</span><strong>80 Kč / den</strong></li>
+            <li><span>Děti do 3 let</span><strong>zdarma</strong></li>
+            <li><span>Děti 3–12 let</span><strong>sleva 30 %</strong></li>
+            <li><span>Domácí mazlíček</span><strong>od 100 Kč / den</strong></li>
+          </ul>
+          <a class="btn" href="mailto:info@hotel-pam.cz?subject=Rezervace%20Hotel%20PAM">Napsat e-mail</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">Hotel PAM</p>
+          <p>Místo, kde stojí za to zůstat. Horské středisko nad Jáchymovem od roku 1991.</p>
+        </div>
+        <div>
+          <h4>Navigace</h4>
+          <ul>
+            <li><a href="#ubytovani">Ubytování</a></li>
+            <li><a href="#sluzby">Služby</a></li>
+            <li><a href="#restaurace">Restaurace</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#o-nas">O nás</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Objekty</h4>
+          <ul>
+            <li>Hotel Bellevue</li>
+            <li>Hotel Petr</li>
+            <li>Depandance</li>
+            <li>Horská chata PAM</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <ul>
+            <li>Nové Město 42, Jáchymov</li>
+            <li><a href="tel:+420734704170">+420 734 704 170</a></li>
+            <li><a href="mailto:info@hotel-pam.cz">info@hotel-pam.cz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Hotel PAM. Všechna práva vyhrazena.</p>
+        <p>Nový web podle šablony The Hotel · data z hotel-pam.cz</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
